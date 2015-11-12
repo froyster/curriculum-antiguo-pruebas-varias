@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Pagina creada por Javier Sánchez Sánchez.
+para ponerse en contacto por email: javiersanchez.mlg@gmail.com
+twitter: @froysterland.
+-->
+<html>
+    <head>
+        <title>Contador</title>
+        <meta charset="UTF-8">
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
+        <script src="js/coche.js" type="text/javascript"></script>
+        <link href="css/fecha.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/fecha.js"></script>
+      
+    </head>
+    <body onload="inicio()">
+        <article>
+            <h1>
+                Contador de Vehiculos
+            </h1>
+            <p><span id="clock"></span></p>
+        </article>
+        <div id="pequeno" onclick="pequeno();"><h1>Pequeño</h1></div>
+        <div id="mediano" onclick="mediano();"><h1>Grande</h1></div>
+        <div id="grande" onclick="grande();"><h1>Extra Grande</h1></div>
+        <div id="tt" onclick="todoterreno();" class="clear"><h1>Todo Terreno</h1></div>
+        <div id="furgon" onclick="furgon();"><h1>Furgoneta</h1></div>
+        <div class="borde" onclick="medio();"><h1>Exterior <br>o<br> interior</h1></div>
+        <div class="clear" onclick="tapiceria();" ><h1>Tapiceria</h1></div>
+        <div class="borde"><br>
+           
+            <fieldset>
+               <legend align="right">Importe</legend><br>
+               <input type="number" id="importe" value="0"><hr>
+             <input type="button" value="Enviar" onclick="importe()" style='width:100px; height:50px' >
+                </fieldset>
+           
+        </div>
+        <div class="borde" onclick="reset();"><h2><br>Borrar<br> todos <br>los datos</h2></div>
+        <!--RESULTADO -->
+        
+        <div id="resultado" class="clear" ><h2>Datos</h2></div> 
+        <!--Cuadro de opciones -->
+        <div style="height: 400px; width: 780px" class="clear" >
+            <br><br><br>
+            <aside>
+                <fieldset>    
+                    <legend align="center" style="color: whitesmoke"> OPCIONES </legend>  
+                    <input type="button" value="Enviar datos" onclick="enviar();" style='width:180px; height:70px'><hr>
+                    <input type="button" value="Restar Vehiculo" onclick="resta();" style='width:180px; height:70px'> <hr>   
+                    <input type="button" value="Enviar Diario al Mensual" onclick="mes();" style='width:180px; height:70px'>
+                    <input type="button" value="Borrar Mensual" onclick="mesReset();" style='width:180px; height:70px'>
+                </fieldset>
+            </aside>
+        </div>
+        
+
+        <div id="dato">Cuadro de Pruebas</div>
+    
+            
+       
+    </body>
+</html>
