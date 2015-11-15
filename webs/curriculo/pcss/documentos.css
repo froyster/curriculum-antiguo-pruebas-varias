@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h2#imPgTitle {float: left; margin-left: 6px; margin-right: 6px; width: 924px;}
 #imCell_3 { display: block; position: relative; overflow: hidden; width: 462px; min-height: 80px; border-top: 3px solid transparent; border-bottom: 3px solid transparent; border-left: 3px solid transparent; border-right: 3px solid transparent;}
 #imCellStyle_3 { position: relative; width: 456px; min-height: 74px; padding: 3px 3px 3px 3px; text-align: center; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; z-index: 2;}
@@ -5,3 +6,12 @@ h2#imPgTitle {float: left; margin-left: 6px; margin-right: 6px; width: 924px;}
 #imCell_4 { display: block; position: relative; overflow: hidden; width: 462px; min-height: 80px; border-top: 3px solid transparent; border-bottom: 3px solid transparent; border-left: 3px solid transparent; border-right: 3px solid transparent;}
 #imCellStyle_4 { position: relative; width: 456px; min-height: 74px; padding: 3px 3px 3px 3px; text-align: center; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; z-index: 2;}
 #imCellStyleGraphics_4 { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: transparent;}
+=======
+h2#imPgTitle {float: left; margin-left: 6px; margin-right: 6px; width: 924px;}
+#imCell_3 { display: block; position: relative; overflow: hidden; width: 462px; min-height: 80px; border-top: 3px solid transparent; border-bottom: 3px solid transparent; border-left: 3px solid transparent; border-right: 3px solid transparent;}
+#imCellStyle_3 { position: relative; width: 456px; min-height: 74px; padding: 3px 3px 3px 3px; text-align: center; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; z-index: 2;}
+#imCellStyleGraphics_3 { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: transparent;}
+#imCell_4 { display: block; position: relative; overflow: hidden; width: 462px; min-height: 80px; border-top: 3px solid transparent; border-bottom: 3px solid transparent; border-left: 3px solid transparent; border-right: 3px solid transparent;}
+#imCellStyle_4 { position: relative; width: 456px; min-height: 74px; padding: 3px 3px 3px 3px; text-align: center; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; z-index: 2;}
+#imCellStyleGraphics_4 { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-color: transparent;}
+>>>>>>> 20f28141af7ed81ccc0b9dbc430733cdc5f8e5d3

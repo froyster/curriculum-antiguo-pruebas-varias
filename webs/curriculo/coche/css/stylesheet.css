@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
     background-color: #008000;
 }
@@ -78,3 +79,85 @@ div:hover {
 
 
 
+=======
+html {
+    background-color: #008000;
+}
+div {
+        background-color: #00cb68;
+	display: inline-block;
+	margin-left: 4px;
+	margin-top:4px;
+	border:4px solid pink;
+	border-radius:25%;
+	width:250px;
+	height:190px;
+	text-align:center;
+        float: left;
+	}
+div p {
+	margin-top: 40px;
+	font-size: 12px;
+}
+#pequeno {
+    border:2px dashed #008000;
+    }
+#mediano {
+    border:2px dashed #0000ff;
+    }
+#grande {
+    border:2px dashed #cc00cc;
+    }
+    
+div:hover {
+    background-color:#ff3333;
+    }
+#grande {
+    border:3px dashed #006666;
+    }
+    .borde{
+        border:3px dashed #006666;
+    }
+#tt {
+    border:3px dashed #CC0000;
+    }
+#furgon {
+        border: 1px #0000ff dotted;
+        border-radius: 25%;
+               
+    }    
+#resultado{
+        border: 4px #000fff dotted;
+        border-radius: 15%;
+        width:780px;
+	height:750px;
+        background-color: #00cccc;
+        text-align:center;
+        text-shadow: 1px 1px #0033ff;
+        color: #ff0000;
+        font-size: 1.5em;
+    }
+    aside{
+        text-align: center;
+        
+    }
+    #dato{
+        background-color: #00cccc;
+	display: inline-block;
+	margin-left: 8px;
+	margin-top:8px;
+	border:4px dotted orange;
+	border-radius:15%;
+	width:780px;
+	height:250px;
+	text-align:center;
+        float: none;
+        float: left;
+    }
+    div.clear {
+    clear: both;
+}
+
+
+
+>>>>>>> 20f28141af7ed81ccc0b9dbc430733cdc5f8e5d3

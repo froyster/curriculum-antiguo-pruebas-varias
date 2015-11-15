@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 	<url>
@@ -60,4 +61,68 @@
 			<image:title><![CDATA[email javier sanchez]]></image:title>
 		</image:image>
 	</url>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+	<url>
+		<loc>http://javiersanchez.tk/index.html</loc>
+		<lastmod>2013-05-07</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+			<image:loc>http://javiersanchez.tk/images/logo-pdf_red.png</image:loc>
+			<image:caption><![CDATA[Curriculum en pdf]]></image:caption>
+			<image:geo_location><![CDATA[malaga]]></image:geo_location>
+			<image:title><![CDATA[Curriculum en pdf]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://javiersanchez.tk/formacion.html</loc>
+		<lastmod>2013-05-07</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://javiersanchez.tk/experiencia-laboral.html</loc>
+		<lastmod>2013-05-07</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://javiersanchez.tk/documentos.html</loc>
+		<lastmod>2013-05-07</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+			<image:loc>http://javiersanchez.tk/images/logo-pdf_red_x4f2g5li.png</image:loc>
+			<image:caption><![CDATA[Curriculum en pdf]]></image:caption>
+			<image:geo_location><![CDATA[malaga]]></image:geo_location>
+			<image:title><![CDATA[Curriculum en pdf]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>http://javiersanchez.tk/images/logo-pdf_red_x4f2g5li.png</image:loc>
+			<image:caption><![CDATA[Curriculum en pdf]]></image:caption>
+			<image:geo_location><![CDATA[malaga]]></image:geo_location>
+			<image:title><![CDATA[Curriculum en pdf]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>http://javiersanchez.tk/imsitemap.html</loc>
+		<lastmod>2013-05-07</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://javiersanchez.tk/contacto.html</loc>
+		<lastmod>2013-05-07</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+			<image:loc>http://javiersanchez.tk/images/Mail-150x150.png</image:loc>
+			<image:caption><![CDATA[Javier Sánchez Sánchez, curriculum web]]></image:caption>
+			<image:geo_location><![CDATA[malaga,españa]]></image:geo_location>
+			<image:title><![CDATA[email javier sanchez]]></image:title>
+		</image:image>
+	</url>
+>>>>>>> 20f28141af7ed81ccc0b9dbc430733cdc5f8e5d3
 </urlset>
