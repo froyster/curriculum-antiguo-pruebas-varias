@@ -13,10 +13,10 @@ function fecha(){
     //calculo del numero de dias esto es mas complicado utilizamos getTime(); devuelde el dato en milisegundos asi
     //que a transformarlo en dias;
     var dia = 1000*60*60*24;//transformamos los milisegundos en un segundo estos en un minuto y estos en un dia.
-    
+
     var dif = hoy.getTime() - cumple.getTime();
         //error
-    
+
     var difDias = (Math.round(Math.abs( dif/dia )))  ; //error no consigo calcular el dia.
-    web.innerHTML = " " + cp + " << >> Luchando " + difAno + " Años " + difMeses + " Meses " + difDias + " Dias "   ; 
+    web.innerHTML = " " + cp + " << >> Luchando " + difAno + " Años " + difMeses + " Meses " + difDias + " Dias "   ;
 }   
