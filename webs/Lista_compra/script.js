@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $("#boton").mouseover(function(){
         $("#boton").fadeTo("slow", 0.75).css("background-color","blue");
@@ -18,4 +19,3 @@ $(document).ready(function(){
      $(this).remove();
     });
 });
-
