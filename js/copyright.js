@@ -1,8 +1,6 @@
 window.onload=function(){
     fecha();
 };
-
-
 function fecha(){
     var hoy = new Date();
     var cumple = new Date("05/16/1978 09:30:15");
@@ -13,9 +11,7 @@ function fecha(){
         if (hoy.getDate()<cumple.getDate()) {
             difMeses -=1;
         };
-       
     var dia = 1000*60*60*24;//transformamos los milisegundos en un segundo estos en un minuto y estos en un dia.
-    
     var cumpleDia = cumple.getDate();
     var hoyDia = hoy.getDate();
     var dias = (function(){
@@ -26,9 +22,7 @@ function fecha(){
         } else{
             return hoyDia - cumpleDia ;
         };
-        
     });
     var difDias = (Math.round( dias()/* <--ejecutamos la funcion*/)); //error no consigo calcular el dia.
-
-    web.innerHTML = " " + cp + "<< >> Luchando " + difAno + " Años " + difMeses + " Meses " + difDias + " Dias ";  
-}   
+    web.innerHTML = " " + cp + "<< >> Luchando " + difAno + " Años " + difMeses + " Meses " + difDias + " Dias ";
+}
