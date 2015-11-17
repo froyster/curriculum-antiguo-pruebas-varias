@@ -3,7 +3,7 @@
         para ponerse en contacto por email: javiersanchez.mlg@gmail.com
         twitter: @froysterland.
         */
-        /* 
+        /*
             Created on : 05-abr-2015, 12:16:52
             Author     : javier sanchez sanchez
         */
@@ -15,11 +15,11 @@ img,video{
     transition-duration: 3s;
 }
 img:hover{
-    transform: scale(2);
+    transform: scale(1.8);
     transition-duration: 1s;
-      
+
 }
-        
+
 /* Smartphones */
 
 @media only screen and (max-width : 768px) {
@@ -27,7 +27,7 @@ img:hover{
         width: 100%;
         margin: 0 auto;
     }
-    
+
     article{
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -38,7 +38,7 @@ img:hover{
         border-radius: 15px;
         height: auto;
     }
-    
+
     body{
         background-color:whitesmoke;
         color: black;
@@ -50,12 +50,12 @@ img:hover{
         width: 100%;
         border: 1px solid black;
         background: whitesmoke;
-        display: none; 
+        display: none;
     }
-    
+
     #columna2{
         width:100%;
-        background-color: #666600; 
+        background-color: #666600;
         margin-right: 15px;
         height: auto;
         text-align: center
@@ -70,7 +70,7 @@ img:hover{
         margin-bottom: 35px;
         margin-top: 3px;
     }
-    
+
     #footer{
         width: 100%;
         background-color: #4a3c1d;
@@ -91,17 +91,17 @@ img:hover{
     .floatleft{
         float: left;
     }
-    
+
 }
 a{
            text-decoration: none;
            color: #cccc00;
-           text-shadow: 2px 2px 5px red;    
+           text-shadow: 2px 2px 5px red;
            transition-duration: 0.5s; //duracion de la transformacion
            -moz-transition-duration: 0.5s;
            -o-transition-duration: 0.5s;
            -webkit-transition-duration: 0.5s;
-       }   
+       }
 a:hover{
            color:violet;
            transition-delay: 0.1s; //retardo de transición
@@ -113,7 +113,7 @@ a:hover{
            -o-transition-duration: 1s;
            -webkit-transition-duration: 1s;
            font-size: 1.2em;
-            
+
        }
         //barra navegacion inquierda y en linea
 h3{
@@ -123,14 +123,14 @@ h3{
 	padding: 6px;
 	margin: 0px;
 	padding: 10px;
-	
+
 }
 
 nav ul{
 	list-style-type: none;
 	margin: 0px;
-	padding: 0px;	
-        
+	padding: 0px;
+
 }
 
 nav a{
@@ -151,16 +151,16 @@ nav a:hover.izq {
         border: 3px solid red;
 }
 
-      
+
 /* Desktops and laptops ----------- */
 
 @media only screen and (min-width : 769px) {
-   
+
     #wrapper{
         width: 100%;
         margin: 0 auto;
     }
-      
+
     article{
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -172,7 +172,7 @@ nav a:hover.izq {
         border-radius: 15px;
         height: auto;
     }
-    
+
     body{
         background-color: #2F3038;
         color: black;
@@ -189,6 +189,9 @@ nav a:hover.izq {
         }
     #subtittle{
         margin-left: 70%;
+        text-decoration: none;
+        color: #cccc00;
+        text-shadow: 2px 2px 5px red;
         }
     #cabecera img{
            //border-radius: 25%;
@@ -197,12 +200,12 @@ nav a:hover.izq {
     a{
            text-decoration: none;
            color: #cccc00;
-           text-shadow: 2px 2px 5px red;    
+           text-shadow: 2px 2px 5px red;
            transition-duration: 0.5s; //duracion de la transformacion
            -moz-transition-duration: 0.5s;
            -o-transition-duration: 0.5s;
            -webkit-transition-duration: 0.5s;
-       }   
+       }
     a:hover{
            color:violet;
            transition-delay: 0.1s; //retardo de transición
@@ -214,10 +217,10 @@ nav a:hover.izq {
            -o-transition-duration: 1s;
            -webkit-transition-duration: 1s;
            font-size: 1.2em;
-            
+
        }
-    
-    
+
+
     #columna1{
         width:20%;
         background-color: #666600;
@@ -228,7 +231,7 @@ nav a:hover.izq {
     }
     #columna2{
         width:55%;
-        background-color: #666600; 
+        background-color: #666600;
         box-shadow: 15px 15px 15px 0 #333300;
         margin-right: 15px;
         height: auto;
@@ -239,7 +242,7 @@ nav a:hover.izq {
     #columna2 h1,h2{
             text-align: center;
     }
-       
+
     #columna3{
         width: 20%;
         background-color: #666600;
@@ -261,7 +264,7 @@ nav a:hover.izq {
     .floatleft{
         float: left;
     }
-//barra navegacion inquierda y en linea
+//barra navegacion izquierda y en linea
 
 nav.izq{
 	width: 100%;
@@ -271,7 +274,7 @@ nav.izq{
 }
 nav.linea{
     margin-left: 120px;
-    
+
 }
 nav li.linea{
     display: inline;
@@ -305,8 +308,8 @@ h3{
 nav ul{
 	list-style-type: none;
 	margin: 0px;
-	padding: 0px;	
-        
+	padding: 0px;
+
 }
 
 nav a{
@@ -337,5 +340,5 @@ nav a:hover.linea {
 }
   .hide{
         display:none;
-    }  
+    }
 }
