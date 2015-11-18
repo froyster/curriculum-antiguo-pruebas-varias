@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .imHidden {display: none;}
 .imBgStretcher {display: none;}
 #imHeader {display: none;}
@@ -8,14 +8,4 @@
 #imBtMn {display: none;}
 #imFooterBg {display: none;}
 #imContent { height: auto !important; }
-=======
-.imHidden {display: none;}
-.imBgStretcher {display: none;}
-#imHeader {display: none;}
-#imMnMn {display: none;}
-#imPgMn {display: none;}
-#imFooPad {display: none;}
-#imBtMn {display: none;}
-#imFooterBg {display: none;}
-#imContent { height: auto !important; }
->>>>>>> 20f28141af7ed81ccc0b9dbc430733cdc5f8e5d3
+
