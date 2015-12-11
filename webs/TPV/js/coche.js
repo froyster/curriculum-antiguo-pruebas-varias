@@ -5,17 +5,17 @@ function c1(){
        if(typeof(Storage) !== "undefined") {
             if (localStorage.c1) {
                 localStorage.c1 = Number(localStorage.c1)+1;
-            } 
+            }
             else {
                 localStorage.c1 = 1;
             }
-        } 
+        }
         else {
             document.getElementById("resultado").innerHTML = "Tu navegador no  soporta localstorage...";
         }
         mostrar();
         }
-    
+
 function c2(){
         if(typeof(Storage) !== "undefined") {
             if (localStorage.c2) {
@@ -92,7 +92,7 @@ function c7(){
 }
         //Funcion para introducir un importe por teclado.
 function c8(){
-    
+
     if(typeof(Storage) !== "undefined") {
         if (localStorage.c8) {
             localStorage.c8 = Number(localStorage.c8)+1;
@@ -102,18 +102,18 @@ function c8(){
 } else {
         document.getElementById("resultado").innerHTML = "Tu navegador no soporta localstorage...";
     }
-    
+
     var Importe = parseFloat(document.getElementById("c8Importe").value);
-    
-    
+
+
     if (localStorage.c8Importe) {
             localStorage.c8Importe = Number(localStorage.c8Importe)+ Importe;
-                   
+
         } else {
             localStorage.c8Importe = 0;
         }
     mostrar();
-}
+};
 
 
             //Funcion para calcular el total de coches lavados.
@@ -127,11 +127,11 @@ function mostrar(){
             cobrar();
             document.getElementById("resultado").innerHTML="<br><h3>El total de coches lavados es: " + tCoches + "<br>El total facturado es: " + facturacionCoches + " €uros"+ "<br> Mi cobro es: " + cobroDia.toFixed(2) + " €uros</h3>" + "<br> " + "Coches pequeños: " + localStorage.c1 + " vehiculos." + "<br>Coches grandes: " + localStorage.c2 + " vehiculos." + "<br>Coches Extra-grandes: " + localStorage.c3 + " vehiculos." + "<br>Coches Todo-Terrenos: " + localStorage.c4 + " vehiculos. " + "<br>Furgones o Furgonetas: " + localStorage.c5 + " vehiculos. " + " <br>Coche solo,interior o exterior: " + localStorage.c6 + " vehiculos. " + "<br>Tapiceria: " + localStorage.c7 + " vehiculos. " + "<br> Otros Importes: " + localStorage.c8 + "<hr><h3>Mensual Acumulado</h3> " + " Facturado: " + localStorage.mes +" €" + " <br>Mes Cobro: " + cobro.toFixed(2) + " € " + "<br>" + localStorage.cocheMes + " Coches Lavados" ;
             cambiarTexto();
-      
+
 }
 
 
-    
+
 //Boton para mandar los resultados por email.
 
 function enviar(){
@@ -144,25 +144,25 @@ function enviar(){
 
 function resta(){
         var restar = Number(prompt("Introduce el importe a descontar","0"));
-        if(restar === 0 || restar !== Number(restar) ){ 
-        
+        if(restar === 0 || restar !== Number(restar) ){
+
         mostrar();
-    
+
         }else{
             localStorage.c8Importe -= Number(restar);
             localStorage.c8 -= Number(1);
             mostrar();
     }
-        
+
     }
 
             // Total mes cobro y facturado.
     //creacion del dato.
-    
+
 function mes(){
         var datosDelDia = facturacionCoches;
         var cochesDia = tCoches;
-   
+
         if(typeof(Storage) !== "undefined" ) {
                 if (localStorage.mes) {
                     localStorage.mes = Number(localStorage.mes)+ datosDelDia;
@@ -181,12 +181,12 @@ function mes(){
    }   else {
            document.getElementById("resultado").innerHTML = "Tu navegador no soporta localstorage...";
        }
-    
+
     mostrar();
     }
-    
+
     // Borrado del dato mensual.
-    
+
 function mesReset(){
         localStorage.mes = 0;
         localStorage.cocheMes = 0;
@@ -196,7 +196,7 @@ function cobrar(){
          //variable para saber lo que yo cobro
         cobro = Number(localStorage.mes -(localStorage.mes * (21/100)))*(21/100);
     }
-            
+
 function reset(){
     var confirmar = confirm("¿Esta usted seguro de querer Borrar todos los datos?");
     if(confirmar !== true){
@@ -240,10 +240,10 @@ function totalFacturado(){
     var Fc6 = localStorage.c6 * parseFloat(localStorage.c6Precio);
     var Fc7 = localStorage.c7 * parseFloat(localStorage.c7Precio);
     var Fc8 = parseFloat(localStorage.c8Importe);
-    
+
     facturacionCoches = Fc1 +Fc2 +Fc3 + Fc4 +Fc5 + Fc6 + Fc7 + Fc8 ;
     cobroDia = Number((facturacionCoches -(facturacionCoches * (21/100)))*(21/100));
-    
+
    }
 /*--------------------------------------------------------------*/
     //zona nueva
@@ -275,6 +275,6 @@ function cambiarTexto(){
         document.getElementById("c5texto").innerHTML = localStorage.c5Precio;
         document.getElementById("c6texto").innerHTML = localStorage.c6Precio;
         document.getElementById("c7texto").innerHTML = localStorage.c7Precio;
-        
-       
-}        
+
+
+}
