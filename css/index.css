@@ -305,8 +305,12 @@
           .right{
             text-align: right;
           }
+          strong{
+            color: darkred;
+            
+          }
   //formulario
           input:selection {
-          
+
           }
         }
