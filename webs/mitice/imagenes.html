@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <link href="css/galeria.css" rel="stylesheet" type="text/css" />
+  <link href="css/social.css" rel="stylesheet" type="text/css" />
+  <script src="js/galeria.js" type="text/javascript"></script>
+  <title>Galeria de imagenes</title>
+  <!--google analitycs -->
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61570111-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!--Fin codigo google analytics -->
+</head>
+
+<body>
+  <div id="social-platforms">
+    <a class="tooltip" href="https://www.facebook.com/jsanchezsanchez" data-title="Facebook" target="_blank"><i class="fa fa-facebook"></i><span>Facebook</span></a>
+
+    <a class="tooltip" href="https://twitter.com/froysterland" data-title="Twitter" target="_blank"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+
+    <a class="tooltip" href="https://plus.google.com/u/0/118342018726175955127/posts" data-title="Google+" target="_blank"><i class="fa fa-google-plus"></i><span>Google+</span></a>
+
+    <a class="tooltip" href="https://www.linkedin.com/pub/javier-sanchez-sanchez/44/681/732" data-title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
+
+
+  </div>
+
+
+  <div class="img-wrapper" onClick="toggleClass(this); return false;">
+
+    <img src="imagenes/tpv/seypos 485 blanco.jpeg" alt="" />
+
+    <!-- pour l'interaction, on ajoute le voile qui va couvrir l'image // Au passage on créé le lien cliquable sur le voile -->
+    <a href="#">
+      <div class="cover">
+
+        <div class="icon">
+
+        </div>
+      </div>
+    </a>
+    <!-- on va ajouter un petit texte sur l'image -->
+    <div class="text">Agrandar la imágen</div>
+
+    <!-- et on referme le wrapper -->
+  </div>
+
+  <div class="display-info">
+    <div class="info-detail">
+      <p>Galeria de Imagenes:
+        <br>Terminales punto de venta, TPV.
+        <br>Routers</p>
+      <a href="#">TPV´s y Routers</a>
+
+    </div>
+  </div>
+
+  <!-- Et j'ajoute une autre rangée d'images sans explication. Je leur applique une nouvelle classe qui leur assigne une largeur de 25% de façon à ce que 4 images couvrent correctement la largeur de l'écran -->
+  <div class="img-wrapper2" onClick="toggleClass2(this)">
+
+    <img src="imagenes/tpv/seypos 485 true flat.jpeg" alt="" />
+    <a href="#">
+      <div class="cover2">
+        <div class="icon2">
+
+        </div>
+      </div>
+    </a>
+    <div class="text">Seypos 485</div>
+  </div>
+
+  <div class="img-wrapper2" onClick="toggleClass2(this)">
+    <!--imagen-->
+    <img src="imagenes/tpv/seypos 562 aio.jpeg" alt="" />
+    <a href="#">
+      <div class="cover2">
+        <div class="icon2">
+
+        </div>
+      </div>
+    </a>
+    <div class="text">Seypos 562</div>
+  </div>
+
+  <div class="img-wrapper2" onClick="toggleClass2(this)">
+    <!--imagen-->
+    <img src="imagenes/tpv/seypos easytouch.jpeg" alt="" />
+    <a href="#">
+      <div class="cover2">
+        <div class="icon2">
+
+        </div>
+      </div>
+    </a>
+    <div class="text">Seypos easyTouch</div>
+  </div>
+
+  <div class="img-wrapper2" onClick="toggleClass2(this)">
+    <!--imagen-->
+    <img src="imagenes/switch/ACCES POINT WIRELESS 150Mb TP-LINK TL-WA701ND.jpg" alt="" />
+    <a href="#">
+      <div class="cover2">
+        <div class="icon2">
+
+        </div>
+      </div>
+    </a>
+    <div class="text">TP-Link TL-WA701ND 150Mb</div>
+  </div>
+
+  <!--Bloque imagen completa  -->
+
+  <div class="img-wrapper2" onClick="toggleClass2(this)">
+    <!--imagen-->
+
+    <img src="imagenes/switch/ACCES POINT WIRELESS 150Mb TP-LINK TL-WA7510N.jpg" alt="" />
+    <a href="#">
+      <div class="cover2">
+        <div class="icon2">
+
+        </div>
+      </div>
+    </a>
+    <div class="text">TP-LINK TL-WA7510N</div>
+  </div>
+  <!--Fin Bloque imagen -->
+
+  <!--Bloque imagen completa  -->
+
+  <div class="img-wrapper2" onClick="toggleClass2(this)">
+    <!--imagen-->
+    <img src="imagenes/switch/ACCES POINT WIRELESS 300Mb TP-LINK TL-WA801ND.jpg" alt="" />
+
+    <a href="#">
+      <div class="cover2">
+        <div class="icon2">
+
+        </div>
+      </div>
+    </a>
+    <div class="text">ACCES POINT WIRELESS 300Mb TP-LINK TL-WA801ND</div>
+  </div>
+  <!--Fin Bloque imagen -->
+
+  <!--Bloque imagen completa  -->
+  <div class="img-wrapper2" onClick="toggleClass2(this)">
+    <!--imagen-->
+
+    <img src="imagenes/switch/ACCES POINT WIRELESS 300Mb TP-LINK TL-WA901ND.jpg" alt="" />
+    <a href="#">
+      <div class="cover2">
+        <div class="icon2">
+
+        </div>
+      </div>
+    </a>
+    <div class="text">ACCES POINT WIRELESS 300Mb TP-LINK TL-WA901ND</div>
+  </div>
+  <!--Fin Bloque imagen -->
+  <!--Bloque imagen completa  -->
+  <div class="img-wrapper2" onClick="toggleClass2(this)">
+    <!--imagen-->
+    <img src="imagenes/switch/ANTENA CABLE EXTENSION 3MTS TP-LINK TL-ANT24EC3S.gif" alt="ANTENA CABLE EXTENSION 3MTS TP-LINK TL-ANT24EC3S" />
+
+    <a href="#">
+      <div class="cover2">
+        <div class="icon2">
+
+        </div>
+      </div>
+    </a>
+    <div class="text">ANTENA CABLE EXTENSION 3MTS TP-LINK TL-ANT24EC3S</div>
+  </div>
+  <!--Fin Bloque imagen -->
+  <div class="clear"></div>
+  <div>
+
+  </div>
+</body>
+
+</html>

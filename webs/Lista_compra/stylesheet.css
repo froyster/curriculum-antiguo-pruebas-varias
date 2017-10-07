@@ -1,0 +1,26 @@
+
+h2 {
+    font-family:arial;
+}
+
+form {
+    display: inline-block;
+}
+
+#boton{
+    display: inline-block;
+    height:25px;
+	width:75px;
+	background-color:#cc0000;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:15px;
+}
+
+.lista {
+	font-family:garamond;
+	color:#cc0000;
+}
